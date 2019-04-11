@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/wurde/Tabs-Components/issues"
   },
-  "homepage": "https://github.com/wurde/Tabs-Components#readme"
+  "homepage": "https://github.com/wurde/Tabs-Components#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
