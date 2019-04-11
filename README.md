@@ -12,10 +12,10 @@ In this project, our design team has already built an HTML/CSS web page for us, 
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [x] Create a forked copy of this project.
+* [x] Add your project manager as collaborator on Github.
+* [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 * [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 * [ ] Push commits: git push origin `<firstName-lastName>`.
 
@@ -31,7 +31,7 @@ In this project, our design team has already built an HTML/CSS web page for us, 
 
 * Once you load the page, you will notice a dropdown menu in the upper left side of the page. Currently when you click on it nothing happens. We will build out the functionality to allow a dropdown menu to open and close when a user clicks on the dropdown button.
   * Study the HTML in the index.html file corresponding to the dropdown component.
-  * Study the LESS file in the Dropdown folder. 
+  * Study the LESS file in the Dropdown folder.
   * With your knowledge of the HTML and CSS, complete the `Dropdown.js` file. You will be creating a dropdown component.
 
 ### Part Two (Tabs)
@@ -46,7 +46,7 @@ In this project, our design team has already built an HTML/CSS web page for us, 
 
 ### Stretch Goals
 
-* Create a Single `Tabs` component that creates all instances of `TabLink`. It will also hold the currently selected tab. 
+* Create a Single `Tabs` component that creates all instances of `TabLink`. It will also hold the currently selected tab.
   * Add a `deselect` method to each the `TabItem` and `TabLink` classes. This will deselect that specific tab.
   * Remove the code deselecting all `TabLink`s and `TabItem`s, only relying on the deselect method.
   * `Tabs` should deselect the currently selected tab each time a new tab is selected.
