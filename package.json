@@ -5,7 +5,9 @@
   "main": "index.html",
   "private": true,
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "build": "less-watch-compiler less css --run-once",
+    "build:watch": "less-watch-compiler less css"
   },
   "repository": {
     "type": "git",
