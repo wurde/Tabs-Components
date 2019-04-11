@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/wurde/Tabs-Components#readme",
   "devDependencies": {
+    "less-watch-compiler": "^1.13.0",
     "live-server": "^1.2.1"
   }
 }
