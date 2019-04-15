@@ -1,0 +1,27 @@
+{
+  "name": "Tabs-Components",
+  "version": "1.0.0",
+  "description": "Components II project.",
+  "main": "index.html",
+  "private": true,
+  "scripts": {
+    "start": "live-server",
+    "build": "less-watch-compiler less css --run-once",
+    "build:watch": "less-watch-compiler less css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wurde/Tabs-Components.git"
+  },
+  "keywords": [],
+  "author": "Andy Bettisworth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wurde/Tabs-Components/issues"
+  },
+  "homepage": "https://github.com/wurde/Tabs-Components#readme",
+  "devDependencies": {
+    "less-watch-compiler": "^1.13.0",
+    "live-server": "^1.2.1"
+  }
+}
